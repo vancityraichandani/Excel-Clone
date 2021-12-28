@@ -162,7 +162,7 @@ $(document).ready(function () {
             console.log(formula);
             let result = eval(formula);
             $(".input-cell.selected").text(result);
-            updateCell("text", resut, true);
+            updateCell("text", result, true);
             
         }
     })
